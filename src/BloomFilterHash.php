@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\BloomFilter;
+namespace pengbloom\BloomFilter;
 
 class BloomFilterHash
 {

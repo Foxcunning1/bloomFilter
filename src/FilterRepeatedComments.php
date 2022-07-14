@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\BloomFilter;
+namespace pengbloom\BloomFilter;
 
 /**
  * 重复内容过滤器
