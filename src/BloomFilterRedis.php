@@ -43,7 +43,6 @@ abstract class BloomFilterRedis
         $pipe = $this->Redis->multi();
         foreach ($this->hashFunction as $function) {
             $hash = $this->Hash->$function($string);
-            var_dump($hash);
             $pipe->setBit($this->bucket, $hash, 1);
         }
         return $pipe->exec();
