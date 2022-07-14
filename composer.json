@@ -1,0 +1,24 @@
+{
+  "name": "bloom/bloomfilter",
+  "type": "library",
+  "description": "bloomFilter",
+  "keywords": ["bloomFilter"],
+  "homepage": "https://github.com/Foxcunning1/bloomFilter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christopher",
+      "email": "455655541@qq.com",
+      "homepage": "https://github.com/Foxcunning1/bloomFilter",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "bloomFilter": "src"
+    }
+  }
+}
