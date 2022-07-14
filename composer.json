@@ -1,5 +1,5 @@
 {
-  "name": "bloom/bloomfilter",
+  "name": "pengbloom/bloomfilter",
   "type": "library",
   "description": "bloomFilter",
   "keywords": ["bloomFilter"],
